@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Employee Registration</title>
+</head>
+<body>
+<form action="AddEmployee" method="post">
+  <div class="container">
+    <h1>Employee Registration Form</h1>
+    <p>Please fill this form:</p>
+    <hr>
+    
+    <label for="empid"><b>Employee ID</b></label>
+    <input type="number" placeholder="Enter Employee ID" name="empid" id="empid" required>
+    
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+    
+    <label for="contact"><b>Contact Number</b></label>
+    <input type="text" placeholder="Enter Contact Number" name="contact" id="contact" required>
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+    <label for="domain"><b>Domain</b></label>
+    <input type="text" placeholder="Enter Domain" name="domain" id="domain" required>
+    
+    <hr>
+
+    <button type="submit" class="registerbtn1">Register</button>
+    <button type="button" onclick="window.location='viewEmployee.jsp'" class="viewbtn">View Details</button>
+  </div>
+</form>
+</body>
+</html>
